@@ -7,7 +7,6 @@ int wordcount=0,vowelcount=0;
 string s;
 cout<<"Enter the sentence: \n";
 getline(cin,s,'\n');
-s.find("c");
 cout<<"Your Input: \n" <<s<<endl;
 if(s.length()>0){
     wordcount++;
