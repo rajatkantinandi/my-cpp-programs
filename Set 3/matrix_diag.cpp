@@ -8,7 +8,7 @@ int main() {
     cin >> arr[j][i];
     }
     }
-    float sum_left_diag,sum_right_diag;
+    float sum_left_diag=0,sum_right_diag=0;
     for(int j=0;j<3;j++){
     for(int i=0;i<3;i++){
         if(i==j){
